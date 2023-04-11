@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CATINDER</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="main-menu">
+    <ul>
+        <li>
+            <a href="./login.html">
+                <i class="fa fa-home "></i>
+                <span class="nav-text">
+                   Login
+                </span>
+            </a>
+          
+        </li>
+        <li class="has-subnav">
+            <a href="./aboutus.html">
+                <i class="fa fa-globe "></i>
+                <span class="nav-text">
+                    About us
+                </span>
+            </a>
+            
+        </li>
+        <li class="has-subnav">
+            <a href="./social.html">
+               <i class="fa fa-comments "></i>
+                <span class="nav-text">
+                    Our social media
+                </span>
+            </a>
+        </li>
+    </ul>
+    <ul class="logout">
+        <li>
+           <a href="./index.html">
+                 <i class="fa fa-power-off "></i>
+                <span class="nav-text">
+                    Logout
+                </span>
+            </a>
+        </li>  
+    </ul>
+</nav>
+<div id="board"></div>
+<div id="conversationList" class="conversation-list">
+  <div class="single-conversation">
+      <img class="avatar" src="pics/cat (2).jpg" alt="avatar">
+      <div class="conversation-details">
+          <h4>John Doe</h4>
+          <p>Hey there! How are you?</p>
+      </div>
+  </div>
+  <div class="single-conversation">
+      <img class="avatar" src="pics/cat (32).jpg" alt="avatar">
+      <div class="conversation-details">
+          <h4>Jane Smith</h4>
+          <p>I'm good. Just finishing up some work.</p>
+      </div>
+  </div>
+  <div class="single-conversation">
+      <img class="avatar" src="pics/cat (42).jpg" alt="avatar">
+      <div class="conversation-details">
+          <h4>David Miller</h4>
+          <p>Cool. Let me know if you need help.</p>
+      </div>
+  </div>
+    <div class="single-conversation">
+    <img class="avatar" src="pics/cat (21).jpg" alt="avatar">
+    <div class="conversation-details">
+        <h4>Your mom</h4>
+        <p>Hello.</p>
+    </div>
+    </div>
+    <div class="single-conversation">
+        <img class="avatar" src="pics/cat (3).jpg" alt="avatar">
+        <div class="conversation-details">
+            <h4>John Doe</h4>
+            <p>Hey there! How are you?</p>
+        </div>
+    </div>
+    <div class="single-conversation">
+        <img class="avatar" src="pics/cat (22).jpg" alt="avatar">
+        <div class="conversation-details">
+            <h4>Jane Smith</h4>
+            <p>I'm good. Just finishing up some work.</p>
+        </div>
+    </div>
+    <div class="single-conversation">
+        <img class="avatar" src="pics/cat (72).jpg" alt="avatar">
+        <div class="conversation-details">
+            <h4>David Miller</h4>
+            <p>Cool. Let me know if you need help.</p>
+        </div>
+    </div>
+    <div class="single-conversation">
+      <img class="avatar" src="pics/cat (25).jpg" alt="avatar">
+      <div class="conversation-details">
+          <h4>Your mom</h4>
+          <p>Hello.</p>
+      </div>
+</div>
+</div>
+<button id="toggle" class="hide-conversations">
+    <i id="chatarrow" class="fa fa-arrow-down fa-rotate-180"></i>
+</button>
+    <script src="mlotek.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
